@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1E4435">
+    <title>Narawita Regency 1 Trayu — Hunian Tenang & Nyaman di Boyolali</title>
+    <meta name="description" content="Narawita Regency 1 Trayu, perumahan idaman di Boyolali. Cocok untuk pensiunan dan keluarga kecil. DP mulai 5 Juta All In, lokasi strategis, lingkungan tenang.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="assets/images/Logo webp.webp">
+    <link rel="apple-touch-icon" href="assets/images/Logo webp.webp">
+
+    <!-- DNS Prefetch & Preconnect (performance) -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload hero images (LCP optimisation) -->
+    <link rel="preload" as="image" href="assets/images/narawita-home-compress-1.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/images/narawita-home-compress-2.webp">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide icons loaded defer to not block render -->
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo-link">
+                <img src="assets/images/Narawita Property Logo Transparent 2.png" alt="Narawita Property Logo" class="nav-logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#solusi">Keunggulan</a>
+                <a href="#lokasi">Lokasi</a>
+                <a href="#spesifikasi">Spesifikasi</a>
+                <a href="#penawaran">Penawaran</a>
+            </div>
+            <a href="https://wa.me/6281215650640?text=Halo%20Ajibond%2C%20saya%20ingin%20informasi%20lebih%20lanjut%20tentang%20Narawita%20Regency%201%20Trayu."
+               target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-nav" id="navWaBtn">
+                <i data-lucide="message-circle" class="icon-sm"></i> Tanya via WA
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <i data-lucide="menu" id="menuIconOpen"></i>
+                <i data-lucide="x" id="menuIconClose" style="display:none;"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay">
+        <a href="#solusi" class="mobile-nav-link">Keunggulan</a>
+        <a href="#lokasi" class="mobile-nav-link">Lokasi</a>
+        <a href="#spesifikasi" class="mobile-nav-link">Spesifikasi</a>
+        <a href="#penawaran" class="mobile-nav-link">Penawaran</a>
+        <a href="https://wa.me/6281215650640?text=Halo%20Ajibond%2C%20saya%20ingin%20informasi%20lebih%20lanjut%20tentang%20Narawita%20Regency%201%20Trayu."
+           target="_blank" class="btn btn-gold mt-6">
+            <i data-lucide="message-circle"></i> Chat WhatsApp
+        </a>
+    </div>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <!-- Hero Slideshow -->
+        <div class="hero-bg" id="heroSlideshow">
+            <div class="slide active">
+                <img src="assets/images/narawita-home-compress-1.webp"
+                     alt="Narawita Regency 1 Trayu — Tampak Depan"
+                     class="hero-img" fetchpriority="high" decoding="async">
+            </div>
+            <div class="slide">
+                <img src="assets/images/narawita-home-compress-2.webp"
+                     alt="Narawita Regency 1 Trayu — Lingkungan Perumahan"
+                     class="hero-img" decoding="async">
+            </div>
+            <div class="hero-overlay"></div>
+            <!-- Slide dots -->
+            <div class="slide-dots">
+                <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+                <button class="dot" data-index="1" aria-label="Slide 2"></button>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge fade-in-up">
+                    <i data-lucide="star" class="badge-icon"></i>
+                    <span>DP Mulai 5 Juta — ALL IN</span>
+                </div>
+                <h1 class="hero-title fade-in-up delay-1">
+                    Temukan Ketenangan<br>di Rumah Idaman Anda
+                </h1>
+                <p class="hero-subtitle fade-in-up delay-2">
+                    Narawita Regency 1 Trayu di Boyolali — hunian asri yang tenang, nyaman, dan strategis.
+                    Dirancang untuk Anda yang mendambakan rumah yang sesungguhnya.
+                </p>
+                <div class="hero-actions fade-in-up delay-3">
+                    <a href="https://wa.me/6281215650640?text=Halo%20Ajibond%2C%20saya%20ingin%20informasi%20lebih%20lanjut%20tentang%20Narawita%20Regency%201%20Trayu."
+                       target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-lg" id="heroWaBtn">
+                        <i data-lucide="message-circle"></i>
+                        Hubungi Kami via WhatsApp
+                    </a>
+                    <a href="#spesifikasi" class="btn btn-ghost btn-lg">
+                        Lihat Spesifikasi
+                        <i data-lucide="arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats-bar fade-in-up delay-4">
+                <div class="hero-stat">
+                    <span class="hero-stat-val">5 Juta</span>
+                    <span class="hero-stat-lbl">DP All In</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-val">Tanpa</span>
+                    <span class="hero-stat-lbl">Biaya Tambahan</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-val">Tipe 36/60</span>
+                    <span class="hero-stat-lbl">2 Kamar Tidur</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-val">Boyolali</span>
+                    <span class="hero-stat-lbl">Lokasi Strategis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROBLEM ========== -->
+    <section class="section-cream" id="problem">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-label">Kenapa Masih Belum Punya Rumah?</span>
+                <h2 class="section-title">Banyak yang Ingin Punya Rumah,<br>Tapi Selalu Ada yang Menghalangi</h2>
+                <p class="section-desc">Membeli rumah seharusnya menjadi momen bahagia, bukan beban yang melelahkan. Namun kenyataannya, banyak keluarga masih terjebak dalam masalah yang sama.</p>
+            </div>
+            <div class="three-col-grid">
+                <div class="problem-card reveal">
+                    <div class="icon-circle icon-gold">
+                        <i data-lucide="piggy-bank"></i>
+                    </div>
+                    <h3>Biaya Awal Terlalu Besar</h3>
+                    <p>DP besar, ditambah biaya KPR, notaris, BPHTB, AJB — semuanya menumpuk hingga terasa tak terjangkau meski sudah menabung bertahun-tahun.</p>
+                </div>
+                <div class="problem-card reveal delay-1">
+                    <div class="icon-circle icon-gold">
+                        <i data-lucide="map-pin-off"></i>
+                    </div>
+                    <h3>Lokasi Jauh dari Fasilitas</h3>
+                    <p>Rumah terjangkau seringkali berarti jauh dari RS, pasar, dan akses tol. Setiap hari terbuang berjam-jam di jalan untuk aktivitas rutin.</p>
+                </div>
+                <div class="problem-card reveal delay-2">
+                    <div class="icon-circle icon-gold">
+                        <i data-lucide="wind"></i>
+                    </div>
+                    <h3>Lingkungan Kurang Nyaman</h3>
+                    <p>Kepadatan, kebisingan, dan minimnya ruang terbuka membuat rumah terasa bukan tempat beristirahat yang sesungguhnya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SOLUTION ========== -->
+    <section class="section-white" id="solusi">
+        <div class="container">
+            <div class="two-col-grid align-center">
+                <div class="solution-content reveal">
+                    <span class="section-label">Solusi Nyata untuk Anda</span>
+                    <h2 class="section-title">Narawita Hadir sebagai Jawaban</h2>
+                    <p class="section-desc" style="text-align:left; margin-bottom: 2rem;">
+                        Dengan memahami keresahan yang sering dihadapi, kami merancang hunian yang benar-benar menjawab kebutuhan Anda — bukan sekadar menjual properti.
+                    </p>
+                    <ul class="benefit-list">
+                        <li>
+                            <div class="benefit-check"><i data-lucide="check"></i></div>
+                            <div>
+                                <strong>DP Mulai 5 Juta, Sudah Semua</strong>
+                                <p>Tidak ada biaya lain-lain. Satu angka, semua sudah termasuk. Langsung proses.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-check"><i data-lucide="check"></i></div>
+                            <div>
+                                <strong>Tanpa Biaya Tambahan</strong>
+                                <p>Bebas dari biaya notaris, KPR, pajak, atau biaya administrasi tersembunyi lainnya.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-check"><i data-lucide="check"></i></div>
+                            <div>
+                                <strong>Lingkungan Asri & Tenang</strong>
+                                <p>Kawasan perumahan yang tertata, hijau, dan bebas kebisingan — ideal untuk tempat tinggal jangka panjang.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-check"><i data-lucide="check"></i></div>
+                            <div>
+                                <strong>Lokasi Strategis di Boyolali</strong>
+                                <p>Dekat tol, RS, pasar, dan bandara — kemudahan akses tanpa harus mengorbankan ketenangan.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/6281215650640?text=Halo%20Ajibond%2C%20saya%20ingin%20jadwalkan%20survey%20lokasi%20Narawita%20Regency%201%20Trayu."
+                       target="_blank" rel="noopener noreferrer" class="btn btn-green btn-lg mt-6" id="solutionWaBtn">
+                        <i data-lucide="calendar-check"></i>
+                        Jadwalkan Survey Lokasi
+                    </a>
+                </div>
+                <div class="solution-image-wrap reveal delay-1">
+                    <img src="assets/images/interior.png" alt="Interior Nyaman Narawita" class="solution-img">
+                    <div class="floating-card">
+                        <div class="floating-card-icon"><i data-lucide="home"></i></div>
+                        <div>
+                            <strong>Tipe 36/60</strong>
+                            <span>2 Kamar Tidur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TARGET AUDIENCE ========== -->
+    <section class="section-green" id="target">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-label light">Untuk Siapa Hunian Ini?</span>
+                <h2 class="section-title text-white">Dirancang untuk Mereka<br>yang Menghargai Kenyamanan</h2>
+            </div>
+            <div class="four-col-grid mt-10">
+                <div class="audience-card reveal">
+                    <i data-lucide="coffee"></i>
+                    <h3>Pensiunan</h3>
+                    <p>Hunian tenang untuk menikmati masa pensiun dengan udara segar dan suasana damai.</p>
+                </div>
+                <div class="audience-card reveal delay-1">
+                    <i data-lucide="users"></i>
+                    <h3>Keluarga Kecil</h3>
+                    <p>Rumah yang aman, nyaman, dan cukup untuk keluarga muda yang baru memulai.</p>
+                </div>
+                <div class="audience-card reveal delay-2">
+                    <i data-lucide="map-pin"></i>
+                    <h3>Warga Solo & Boyolali</h3>
+                    <p>Rumah sendiri di lingkungan familiar, dekat keluarga dan fasilitas yang sudah dikenal.</p>
+                </div>
+                <div class="audience-card reveal delay-3">
+                    <i data-lucide="trending-up"></i>
+                    <h3>Investor Properti</h3>
+                    <p>Area berkembang dengan potensi kenaikan nilai yang terus meningkat setiap tahunnya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== LOKASI ========== -->
+    <section class="section-cream" id="lokasi">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-label">Aksesibilitas</span>
+                <h2 class="section-title">Lokasi Strategis,<br>Dekat ke Semua yang Penting</h2>
+                <p class="section-desc">Narawita Regency 1 Trayu berada di titik yang memberikan kemudahan akses ke berbagai fasilitas tanpa mengorbankan ketenangan lingkungan.</p>
+            </div>
+            <div class="two-col-grid align-start mt-10">
+                <div class="location-points reveal">
+                    <div class="loc-card">
+                        <div class="loc-time">5 menit</div>
+                        <div class="loc-info">
+                            <div class="loc-icon"><i data-lucide="cross"></i></div>
+                            <div>
+                                <strong>RSU Banyubening</strong>
+                                <p>Fasilitas kesehatan utama yang sangat dekat — ketenangan kesehatan untuk seluruh keluarga.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="loc-card reveal delay-1">
+                        <div class="loc-time">6 menit</div>
+                        <div class="loc-info">
+                            <div class="loc-icon"><i data-lucide="shopping-basket"></i></div>
+                            <div>
+                                <strong>Pasar Sambi</strong>
+                                <p>Pasar tradisional lengkap untuk kebutuhan sehari-hari yang selalu tersedia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="loc-card reveal delay-2">
+                        <div class="loc-time">10 menit</div>
+                        <div class="loc-info">
+                            <div class="loc-icon"><i data-lucide="milestone"></i></div>
+                            <div>
+                                <strong>Tol Banyudono</strong>
+                                <p>Akses tol terdekat untuk perjalanan antar kota yang cepat dan nyaman.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="loc-card reveal delay-3">
+                        <div class="loc-time">20 menit</div>
+                        <div class="loc-info">
+                            <div class="loc-icon"><i data-lucide="plane"></i></div>
+                            <div>
+                                <strong>Bandara Adi Soemarmo</strong>
+                                <p>Bandara internasional yang memastikan mobilitas tinggi kapanpun dibutuhkan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container reveal delay-1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15822.521169106092!2d110.70114680170931!3d-7.506002422902653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a6d007333bcd5%3A0xd5f6337762fe60e5!2sPerum%20Subsidi%20NARAWITA%20Regency%201%20Trayu!5e0!3m2!1sen!2sid!4v1777795822291!5m2!1sen!2sid"
+                        width="100%" height="450" style="border:0; border-radius: 12px;"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Peta Lokasi Narawita Regency 1 Trayu">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SPESIFIKASI ========== -->
+    <section class="section-white" id="spesifikasi">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="section-label">Detail Properti</span>
+                <h2 class="section-title">Spesifikasi Hunian<br>Tipe 36/60</h2>
+                <p class="section-desc">Dirancang dengan tata ruang yang efisien dan fungsional untuk memenuhi kebutuhan harian keluarga Anda secara optimal.</p>
+            </div>
+            <div class="spec-grid">
+                <div class="spec-card reveal">
+                    <div class="spec-icon"><i data-lucide="bed-double"></i></div>
+                    <h4>2 Kamar Tidur</h4>
+                    <p>Ruang istirahat yang cukup untuk keluarga kecil dengan pencahayaan alami.</p>
+                </div>
+                <div class="spec-card reveal delay-1">
+                    <div class="spec-icon"><i data-lucide="bath"></i></div>
+                    <h4>Kamar Mandi</h4>
+                    <p>Dilengkapi dengan sanitasi standar dan ventilasi yang baik.</p>
+                </div>
+                <div class="spec-card reveal delay-2">
+                    <div class="spec-icon"><i data-lucide="sofa"></i></div>
+                    <h4>Ruang Tamu / Serbaguna</h4>
+                    <p>Ruang fleksibel yang bisa disesuaikan dengan kebutuhan aktivitas keluarga.</p>
+                </div>
+                <div class="spec-card reveal delay-3">
+                    <div class="spec-icon"><i data-lucide="chef-hat"></i></div>
+                    <h4>Dapur</h4>
+                    <p>Area memasak yang terpisah untuk kenyamanan dan kebersihan optimal.</p>
+                </div>
+                <div class="spec-card reveal">
+                    <div class="spec-icon"><i data-lucide="car"></i></div>
+                    <h4>Carport</h4>
+                    <p>Area parkir tertutup yang cukup untuk satu kendaraan keluarga.</p>
+                </div>
+                <div class="spec-card reveal delay-1">
+                    <div class="spec-icon"><i data-lucide="flower-2"></i></div>
+                    <h4>Halaman Depan & Belakang</h4>
+                    <p>Ruang luar untuk berkebun, bersantai, atau aktivitas outdoor lainnya.</p>
+                </div>
+            </div>
+            <div class="floorplan-section reveal">
+                <h3 class="floorplan-title">Denah Rumah</h3>
+                <div class="floorplan-wrap">
+                    <img src="assets/images/denah_enhanced.webp" alt="Denah Rumah Narawita Tipe 36/60" class="floorplan-img" loading="lazy" decoding="async">
+                </div>
+                <a href="https://wa.me/6281215650640?text=Halo%20Ajibond%2C%20saya%20minta%20brosur%20dan%20pricelist%20Narawita%20Regency%201%20Trayu."
+                   target="_blank" rel="noopener noreferrer" class="btn btn-outline-green btn-lg mt-6 mx-auto" id="brosurBtn">
+                    <i data-lucide="file-text"></i>
+                    Minta Brosur & Pricelist via WA
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PENAWARAN / CTA ========== -->
+    <section class="section-cta" id="penawaran">
+        <div class="container">
+            <div class="cta-wrapper reveal">
+                <div class="cta-badge">
+                    <i data-lucide="alert-triangle"></i> UNIT TERBATAS
+                </div>
+                <h2 class="cta-title">Miliki Rumah Idaman Anda Hari Ini</h2>
+                <div class="cta-price-box">
+                    <span class="price-label">Cukup dengan</span>
+                    <span class="price-amount">DP 5 JUTA</span>
+                    <span class="price-tag">ALL IN · TANPA BIAYA TAMBAHAN</span>
+                </div>
+                <p class="cta-desc">
+                    Harga properti terus naik setiap tahunnya. Semakin lama menunggu, semakin besar biaya yang harus Anda keluarkan. Ambil langkah pertama sekarang — cukup hubungi kami, kami siap membantu proses dari awal.
+                </p>
+                <a href="https://wa.me/6281215650640?text=Halo%20Ajibond%2C%20saya%20mau%20ambil%20promo%20DP%205%20Juta%20All%20In%20di%20Narawita%20Regency%201%20Trayu.%20Tolong%20info%20lebih%20lanjut."
+                   target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-xl" id="finalWaBtn">
+                    <i data-lucide="message-circle"></i>
+                    Chat WhatsApp Sekarang
+                </a>
+                <p class="cta-note">*Amankan unit Anda sebelum kehabisan. Stok sangat terbatas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="assets/images/Narawita Property Logo Transparent 1.png" alt="Narawita Property" class="footer-logo">
+                    <p>Developer perumahan terpercaya yang mengutamakan kenyamanan, kemudahan kepemilikan, dan hunian jangka panjang yang berkualitas.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Hubungi Kami</h4>
+                    <ul>
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>Narawita Regency 1 Trayu, Banyudono, Boyolali, Jawa Tengah</span>
+                        </li>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <a href="https://wa.me/6281215650640" target="_blank">0812-1565-0640 (Ajibond)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#solusi">Keunggulan</a></li>
+                        <li><a href="#lokasi">Lokasi</a></li>
+                        <li><a href="#spesifikasi">Spesifikasi</a></li>
+                        <li><a href="#penawaran">Penawaran</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Narawita Property. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WA Button -->
+    <a href="https://wa.me/6281215650640?text=Halo%20Ajibond%2C%20saya%20ingin%20informasi%20lebih%20lanjut%20tentang%20Narawita%20Regency%201%20Trayu."
+       target="_blank" rel="noopener noreferrer" class="wa-float" id="waFloat" title="Chat WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.556 4.116 1.528 5.845L0 24l6.338-1.506A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.893 0-3.673-.504-5.21-1.385L2 22l1.406-4.726A9.955 9.955 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
